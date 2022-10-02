@@ -17,7 +17,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LoggerService\LoggerService.csproj" />
+    <ProjectReference Include="..\PayrollApi.Presentation\PayrollApi.Presentation.csproj" />
     <ProjectReference Include="..\Repository\Repository.csproj" />
+    <ProjectReference Include="..\Service.Contracts\Service.Contracts.csproj" />
+    <ProjectReference Include="..\Service\Service.csproj" />
   </ItemGroup>
 
 </Project>
